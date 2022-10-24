@@ -39,7 +39,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src={'../images/works/covid.png'} alt="Covid-Tracker" />
+      <WorkImage src={'../images/covid.png'} alt="Covid-Tracker" />
       <Box my={6} align="center">
         <NextLink
           href="https://github.com/djordjeradosav/covid-traked"

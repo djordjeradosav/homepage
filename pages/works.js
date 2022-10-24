@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
-import thumbCovid from '../public/images/works/covid.png';
-import thumbBioLink from '../public/images/works/biolink.png';
-import thumbGrid from '../public/images/works/grid.png';
+import thumbCovid from '../public/images/covid.png';
+import thumbBioLink from '../public/images/biolink.png';
+import thumbGrid from '../public/images/grid.png';
 
 const Works = () => (
   <Layout title="Works">
