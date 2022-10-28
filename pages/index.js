@@ -52,35 +52,6 @@ const Home = () => (
           </Heading>
           <p>( Developer / Designer )</p>
         </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          textAlign="center"
-<<<<<<< HEAD
-        ></Box>
-=======
-        >
-          <Box
-            borderColor="whiteAlpha.800"
-            borderWidth={2}
-            borderStyle="solid"
-            w="100px"
-            h="100px"
-            display="inline-block"
-            borderRadius="full"
-            overflow="hidden"
-          >
-            <ProfileImage
-              src="/profile.jpg"
-              alt="Profile image"
-              borderRadius="full"
-              width="100%"
-              height="100%"
-            />
-          </Box>
-        </Box>
->>>>>>> e021341e56a4a91df4fb886f8215b8e3db1a1109
       </Box>
 
       <Section delay={0.1}>
