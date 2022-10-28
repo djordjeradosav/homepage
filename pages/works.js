@@ -3,11 +3,11 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
-import thumbCovid from '../pages/covid.png';
-import thumbBioLink from '../pages/biolink.png';
-import thumbGrid from '../pages/grid.png';
-import thumbMess from '../pages/messenger.png';
-import thumbIg from '../pages/ig.jpeg';
+import thumbCovid from '../images/covid.png';
+import thumbBioLink from '../images/biolink.png';
+import thumbGrid from '../images/grid.png';
+import thumbMess from '../images/messenger.png';
+import thumbIg from '../images/ig.jpeg';
 
 const Works = () => (
   <Layout title="Works">
