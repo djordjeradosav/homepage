@@ -37,6 +37,7 @@ const Work = () => (
           <span>HTML / CSS / Vercel / Chakra-UI </span>
         </ListItem>
       </List>
+
       <WorkImage src="../images/biolink.png" alt="BioLink" />
       <Box my={6} align="center">
         <NextLink href="https://github.com/djordjeradosav/linkbio" passHref>
