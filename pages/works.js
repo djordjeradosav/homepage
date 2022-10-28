@@ -3,9 +3,11 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
-import thumbCovid from '../public/images/covid.png';
-import thumbBioLink from '../public/images/biolink.png';
-import thumbGrid from '../public/images/grid.png';
+import thumbCovid from '../pages/covid.png';
+import thumbBioLink from '../pages/biolink.png';
+import thumbGrid from '../pages/grid.png';
+import thumbMess from '../pages/messenger.png';
+import thumbIg from '../pages/ig.jpeg';
 
 const Works = () => (
   <Layout title="Works">
@@ -28,6 +30,21 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem id="biolink" thumbnail={thumbBioLink} title="Bio Link">
             A simple link in the description to link all your social media.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="messenger"
+            thumbnail={thumbMess}
+            title="Messenger Clone"
+          >
+            Messenger clone app, build with ReactJS.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="ig" thumbnail={thumbIg} title="Instagram Clone">
+            Instagram clone app, build with ReactJS.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

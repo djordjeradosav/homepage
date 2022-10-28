@@ -38,7 +38,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src={'../images/grid.png'} alt="LearnGrid" />
+      <WorkImage src="../images/grid.png" alt="LearnGrid" />
       <Box my={6} align="center">
         <NextLink href="https://github.com/djordjeradosav/learn-grid" passHref>
           <Button colorScheme="teal" leftIcon={<IoLogoGithub />}>
