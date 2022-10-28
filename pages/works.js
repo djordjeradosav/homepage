@@ -9,12 +9,6 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
-// import thumbCovid from '../images/covid.png';
-// import thumbBioLink from '../images/biolink.png';
-// import thumbGrid from '../images/grid.png';
-// import thumbMess from '../images/messenger.png';
-// import thumbIg from '../images/ig.jpeg';
-
 const Works = () => (
   <Layout title="Works">
     <Container>
