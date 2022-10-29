@@ -38,7 +38,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="../images/biolink.png" alt="BioLink" />
+      <WorkImage src="../images/biolink.PNG" alt="BioLink" />
       <Box my={6} align="center">
         <NextLink href="https://github.com/djordjeradosav/linkbio" passHref>
           <Button colorScheme="teal" leftIcon={<IoLogoGithub />}>

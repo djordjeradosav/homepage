@@ -18,50 +18,34 @@ const Works = () => (
       <Divider mt={5} mb={5} />
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="covid" title="Covid-19 Tracker">
-            <Image src="../images/covid.png" borderRadius={10} />
+          <WorkGridItem id="covid" passHref title="Covid-19 Tracker">
+            <Image src="../images/covid.PNG" passHref borderRadius={10} />
             Track a number of cases all around the world in one app.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="biolink"
-            /*thumbnail={thumbBioLink}*/
-            title="Bio Link"
-          >
-            <Image src="../images/biolink.png" borderRadius={10} />A simple link
-            in the description to link all your social media.
+          <WorkGridItem id="biolink" passHref title="Bio Link">
+            <Image src="../images/biolink.PNG" passHref borderRadius={10} />A
+            simple link in the description to link all your social media.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="messenger"
-            // thumbnail={thumbMess}
-            title="Messenger Clone"
-          >
-            <Image src="../images/messenger.png" borderRadius={10} />
+          <WorkGridItem id="messenger" passHref title="Messenger Clone">
+            <Image src="../images/messenger.png" passHref borderRadius={10} />
             Messenger clone app, build with ReactJS.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem
-            id="ig"
-            /*thumbnail={thumbIg}*/
-            title="Instagram Clone"
-          >
-            <Image src="../images/ig.jpeg" borderRadius={10} />
+          <WorkGridItem id="ig" passHref title="Instagram Clone">
+            <Image src="../images/ig.jpeg" passHref borderRadius={10} />
             Instagram clone app, build with ReactJS.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem
-            id="grid"
-            /*thumbnail={thumbGrid}*/
-            title="Learn Grid"
-          >
-            <Image src="../images/grid.png" borderRadius={10} />
+          <WorkGridItem id="grid" passHref title="Learn Grid">
+            <Image src="../images/grid.PNG" passHref borderRadius={10} />
             Just a project where I learned to use grid css.
           </WorkGridItem>
         </Section>
