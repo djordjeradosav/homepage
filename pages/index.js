@@ -56,7 +56,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
           Djordje is a student and a front-end developer based in Obrenovac with
